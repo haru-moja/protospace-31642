@@ -28,7 +28,6 @@
         <%= "#{@name}さんのプロトタイプ"%>
       </h2>
       <div class="user__card">
-        <%# 部分テンプレートでそのユーザーが投稿したプロトタイプ投稿一覧を表示する %>
         <%= render partial: 'user_prototype', locals: { user_prototypes: :@user_prototypes }%>
       </div>
     </div>
