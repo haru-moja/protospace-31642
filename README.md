@@ -21,7 +21,7 @@
 | title| string| NOT NULL|
 | catch_copy| text| NOT NULL|
 | concept| text| NOT NULL|
-| image| `ActiveStorage`で実装||
+| image| text||
 | user| references| null: false, foreign_key: true|
 
 ### Association
